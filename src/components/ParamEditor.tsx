@@ -1,4 +1,4 @@
-import React, {useState,useMemo } from 'react';
+import React, {useState} from 'react';
 import './styles.css';
 
 interface Param {
@@ -62,7 +62,6 @@ const ParamEditor: React.FC<Props> = ({ params, model }) => {
 
     const searchValue = (id: number) => dataModel.find((item) => item.paramId === id)!.value;
 
-  
 
     return (
         <>
