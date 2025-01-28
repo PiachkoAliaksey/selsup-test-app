@@ -1,0 +1,19 @@
+.block-list-editor {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px
+}
+
+
+.item-list-editor,
+.item-list-edited {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.label-field {
+  min-width: 120px;
+  text-align: left;
+}
