@@ -1,6 +1,6 @@
 # Тестовое задание Salesup
 
-реализованный функционал находится в src/components/ParamEditor.ts
+реализованный функционал находится в src/components/ParamEditor.tsx
 
 ## Начало работы
 
