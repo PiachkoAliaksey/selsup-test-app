@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import './styles.css';
 
 interface Param {
@@ -60,7 +60,7 @@ const FieldEdited = ({ label, text }: { label: string, text: string | undefined 
 const ParamEditor: React.FC<Props> = ({ params, model }) => {
     const [dataModel, setDataModel] = useState<ParamValue[]>(model.paramValues);
 
-    const searchValue = (id: number) => dataModel.find((item) => item.paramId === id)!.value;
+    const searchValue = (id: number) => dataModel.find((item) => item.paramId === id)?.value ?? '';
 
 
     return (
